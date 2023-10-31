@@ -1,4 +1,6 @@
-document.getElementById('card').innerHTML= 'My Calculator';
-document.getElementById('board').style.backgroundColor = 'blue';
-document.getElementsByClassName('board').style.height = '10px';
-document.getElementsByClassName('board').style.width = '10px';
+document.getElementById ('card').innerHTML= 'My Calculator';
+// document.querySelector('.calculator').style.backgroundColor = 'blue';
+document.querySelector('.calculator').style.height = '400px';
+document.querySelector('.calculator').style.width = '300px';
+
+

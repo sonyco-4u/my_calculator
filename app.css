@@ -1,0 +1,36 @@
+/* .calculator {
+    background-color: brown;
+    height: 300px;
+    width: 400px;
+    position: fixed;
+} */
+/* #board {
+    background-color: blueviolet;
+    height: 20px;
+    width: 10px;
+} */
+/* .bt1 {
+    position: fixed;
+    bottom: 1px;
+    left: 10px;
+} */
+/* .button {
+    padding: 300px 900px;
+    margin-bottom:2px;
+} */
+.button{
+    display: grid;
+    box-shadow: 6px 13px 6px white;
+    box-shadow: 6px 13px 6px rgb(15, 15, 15);
+    padding: 16px;
+    border-radius: 16px;
+    grid-template-columns: repeat(4,66px);
+}
+#inputtext{
+grid-column:span 4;
+height: 68px;
+width: 258px;
+box-shadow: 6px 13px 6px rgb(15, 15, 15);
+text-align: end;
+background-color: rgb(145, 241, 221);
+}
